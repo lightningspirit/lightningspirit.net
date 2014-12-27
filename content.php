@@ -31,9 +31,11 @@
         ));
         ?>
     </div><!-- .entry-content -->
-    <?php endif; ?>
 
     <footer class="entry-footer">
         <?php lightningspirit_entry_footer(); ?>
     </footer><!-- .entry-footer -->
+    
+    <?php endif; ?>
+    
 </article><!-- #post-## -->
