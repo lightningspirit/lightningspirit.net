@@ -1,0 +1,10 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1.6) {
+    font-size: $sizeValue + rem;
+}
+
+@mixin border-radius($value: 4) {
+    -webkit-border-radius: $value + rem;
+    -moz-border-radius: $value + rem;
+    border-radius: $value + rem;
+}

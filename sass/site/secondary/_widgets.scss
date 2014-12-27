@@ -1,0 +1,25 @@
+.widget {
+    @include flex(1 1 33%);
+    
+    margin-bottom: 5rem;
+
+    /* Make sure select elements fit in widgets */
+    select {
+        max-width: 100%;
+    }
+    
+    .widget-title {
+        @include font-size(2.09);
+    }
+    
+    > ul {
+        list-style: none;
+        line-height: $font__line-height-body;
+        margin: 0;
+    }
+}
+
+/* Search widget */
+.widget_search .search-submit {
+    display: none;
+}

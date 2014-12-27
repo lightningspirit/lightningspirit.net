@@ -1,0 +1,36 @@
+.comments-area {
+    margin-top: 4.5rem; 
+}
+
+.comments-title {
+    @include font-size(1.79);
+}
+
+.comment-list {
+    list-style: none;
+    margin: 1.89rem 0 0;
+    
+    .comment {
+        .comment-meta {
+            .comment-author.vcard {
+                img {
+                    @extend .alignleft;
+                    
+                }
+            }
+            .comment-metadata {
+                @include font-size(1.09);
+            }
+        }
+        .comment-content {
+            margin-left: 3.5rem;
+        }
+    }
+}
+
+.comment-content a {
+    word-wrap: break-word;
+}
+.bypostauthor {
+    display: block;
+}
